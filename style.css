@@ -1,10 +1,17 @@
+html. body {
+    box-sizing: border-box;
+    height: 100%;
+}
+* {
+    font-family: 'Roboto';
+}
 .header-logo {
     color: white;
 }
 .header {
     display: flex;
     background-color: #1F2937;
-    height: 150px;
+    height: 350px;
     padding: 10px;
     margin: 0;
 }
@@ -14,7 +21,26 @@ a:link, a:visited {
 }
 .link-container {
     display: flex;
+    margin: 5px;
+    justify-content: right;
 }
-.link-container > div {
-    flex: 1
+.hero-container {
+    display: flex;
+    margin: 0px;
+    flex: 0 1 0;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    font-size: 48px;
+}
+.sub-hero {
+    font-size: 18px;
+}
+.quote-container {
+    font-style: italic;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
 }
