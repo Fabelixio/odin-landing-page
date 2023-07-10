@@ -1,0 +1,20 @@
+.header-logo {
+    color: white;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 150px;
+    padding: 10px;
+    margin: 0;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+.link-container {
+    display: flex;
+}
+.link-container > div {
+    flex: 1
+}
