@@ -1,42 +1,66 @@
 html. body {
     box-sizing: border-box;
     height: 100%;
+    margin: 0;
 }
 * {
     font-family: 'Roboto';
 }
+/* Header Section*/
 .header-logo {
-    color: white;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 .header {
     display: flex;
     background-color: #1F2937;
-    height: 350px;
     padding: 10px;
     margin: 0;
 }
 a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+}
+a:hover {
+    color: #e5e7ebad;
 }
 .link-container {
     display: flex;
     margin: 5px;
-    justify-content: right;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    gap: 5%;
 }
+/* Main Section */
 .hero-container {
     display: flex;
     margin: 0px;
-    flex: 0 1 0;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    width: ;
+    background-color: #1F2937;
 }
 .hero {
-    font-size: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F9FAF8;
+    flex: 1;
+    justify-content: center;
 }
 .sub-hero {
     font-size: 18px;
+    color: #e5e7eb
 }
+.button {
+    background-color: #3882F6;
+    flex: 1;
+}
+
+
+
+
 .quote-container {
     font-style: italic;
 }
