@@ -1,4 +1,4 @@
-html. body {
+html, body {
     box-sizing: border-box;
     height: 100%;
     margin: 0;
@@ -10,6 +10,7 @@ html. body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 .header {
     display: flex;
@@ -32,21 +33,12 @@ a:hover {
     gap: 5%;
 }
 /* Main Section */
-.section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 90px 0rem 5rem;
-    gap: 2rem;
-}
 .hero-container {
     display: flex;
     margin: 0px;
-    flex: 1 1 auto;
+    flex-basis: 400px;
+    padding: 90px;
     justify-content: center;
-    align-items: center;
-    height: 300px;
-    padding: 10px;
     background-color: #1F2937;
 }
 .hero {
@@ -54,28 +46,39 @@ a:hover {
     font-weight: bold;
     color: #F9FAF8;
     flex: 1;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .sub-hero {
     font-size: 18px;
     color: #e5e7eb;
     align-items: flex-end;
+    justify-content: center;
     flex: 1;
+}
+.heroes {
+    width: 400px;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
 }
 .button {
     background-color: #3882F6;
     color: #fff;
     border-radius: 10px;
     padding: 10px 35px;
+    display: block;
+    border: none;
+    font-weight: bold;
+}
+.balloons {
+    flex-basis: 400px;
 }
 .balloon {
     background-color: #6d747d;
-    flex: 1;
     max-width: 100%;
-    height: 100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 10px;
+    height: 90%;
+    display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -88,4 +91,5 @@ a:hover {
 .footer {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
 }
