@@ -70,19 +70,43 @@ a:hover {
     border: none;
     font-weight: bold;
 }
+input[type="button"]:hover {
+    background: #3163b3;
+    cursor: pointer;
+}
 .balloons {
     flex-basis: 400px;
+    display: flex;
 }
 .balloon {
     background-color: #6d747d;
     max-width: 100%;
     border-radius: 10px;
     height: 90%;
-    display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
+/* Information Section */
+.info {
+    display: flex;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin: 5px 10px 0px 3px;
+}
+/* Fix spacing issues with image text */
 
 
 .quote-container {
@@ -92,4 +116,5 @@ a:hover {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    color: #F9FAF8;
 }
