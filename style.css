@@ -111,10 +111,24 @@ input[type="button"]:hover {
 .image-box {
     width: 200px;
 }
-
-
+/* Quote Section */
 .quote-container {
     font-style: italic;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    flex-direction: column;
+}
+.attribution {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
 }
 .footer {
     background-color: #1F2937;
